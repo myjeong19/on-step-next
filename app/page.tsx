@@ -9,11 +9,13 @@ export default function Landing() {
       </nav>
 
       <main className="flex flex-col items-center justify-center h-screen bg-stone-900">
+        <Image priority src={'/hero.svg'} alt="next" width={350} height={350} className="w-96" />
         <div>
           <h3 className="text-white text-xl mb-5">성공을 향한 첫걸음, 함께 걸어요.</h3>
-          <Button className="w-96 py-8 bg-blue-400 text-xl cursor-pointer">Onstep 시작하기</Button>
+          <Button className="w-96 py-8 bg-orange-600 text-xl cursor-pointer">
+            Onstep 시작하기
+          </Button>
         </div>
-        <Image priority src={'/hero.svg'} alt="next" width={350} height={350} className="w-96" />
       </main>
     </div>
   );
