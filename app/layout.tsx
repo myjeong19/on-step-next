@@ -34,7 +34,7 @@ export default function RootLayout({
     <html lang="ko-KR" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider>
-          <main className="container py-10 ">{children}</main>
+          <main>{children}</main>
         </ThemeProvider>
       </body>
     </html>

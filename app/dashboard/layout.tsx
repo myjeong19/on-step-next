@@ -20,7 +20,7 @@ const DashboardLayout = async ({
           <SidebarTrigger className=" hidden md:block cursor-pointer" />
           <ModeToggle />
         </header>
-        <main className="w-full py-10 ">{children}</main>
+        <main className="w-full py-10 grid grid-cols-1 md:grid-cols-2 gap-4">{children}</main>
       </SidebarInset>
     </SidebarProvider>
   );
